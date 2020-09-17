@@ -1,6 +1,6 @@
 # neobis_week1
 ## Part I
-..* Install Git on your machine. Ensure it works by executing some simple commands according to the provided tutorial.
+* Install Git on your machine. Ensure it works by executing some simple commands according to the provided tutorial.
 
 ..* Create a repository on Github, add a README.md with the name of the repository, date of creation and author. You can add other information or just sample text as well. In the README, use markdown formatting to add the following:
 ..1. At least two header types
