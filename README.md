@@ -17,7 +17,6 @@
 * Complete solutions to the following challenges on [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/login) and upload it ot your git repository in folder week1.
 
 #### Here's Neobis logo (hover to see the title text):
-Inline-style: 
 ![alt text](https://scontent.fagc3-2.fna.fbcdn.net/v/t1.0-9/p960x960/33720437_1539824862796558_591426587321171968_o.jpg?_nc_cat=106&_nc_sid=85a577&_nc_ohc=r-MNK4G_0R4AX8azRrj&_nc_ht=scontent.fagc3-2.fna&tp=6&oh=12e2ef4a35cafa793be54428f5120154&oe=5F88BD09)
 
 
@@ -31,3 +30,18 @@ Inline-style:
       |    Logical Sequence 2 - 1045
       |    Grenais- 1131
       |    Population Increase - 1160
+    
+  #### Java code example
+  
+'''java
+package test;  
+public class Test  
+{  
+    public static void main(String args[])  
+    {  
+        System.out.println("first statement.");  
+        System.out.println("second statement.");  
+        System.out.println("third statement.");  
+    }  
+}  
+'''
