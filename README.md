@@ -15,6 +15,8 @@
 * Submission of the assignment (both Part I and Part II) is done by submitting a link to your repository on Google Classroom.  Please send a link to you repository, not your Github profile!!!
 
 * Complete solutions to the following challenges on [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/login) and upload it ot your git repository in folder week1.
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
 #### Here's Neobis logo (hover to see the title text):
 [!alt text](https://scontent.fagc3-2.fna.fbcdn.net/v/t1.0-9/p960x960/33720437_1539824862796558_591426587321171968_o.jpg?_nc_cat=106&_nc_sid=85a577&_nc_ohc=r-MNK4G_0R4AX8azRrj&_nc_ht=scontent.fagc3-2.fna&tp=6&oh=12e2ef4a35cafa793be54428f5120154&oe=5F88BD09)
