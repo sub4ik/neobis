@@ -15,7 +15,7 @@
 * Submission of the assignment (both Part I and Part II) is done by submitting a link to your repository on Google Classroom.  Please send a link to you repository, not your Github profile!!!
 
 * Complete solutions to the following challenges on URI Online Judge and upload it ot your git repository in folder week1.
-[URI Online Judge] (https://www.urionlinejudge.com.br/judge/en/login)
+[URI Online Judge](https://www.urionlinejudge.com.br/judge/en/login)
 
       |    Banknotes - 1018
       |    Banknotes and Coins - 1021
