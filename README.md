@@ -33,7 +33,7 @@
     
   #### Java code example
   
-'''java
+```java
 package test;  
 public class Test  
 {  
@@ -44,4 +44,4 @@ public class Test
         System.out.println("third statement.");  
     }  
 }  
-'''
+```
