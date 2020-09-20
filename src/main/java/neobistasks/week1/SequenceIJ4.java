@@ -1,21 +1,34 @@
 package neobistasks.week1;
 
+import java.text.DecimalFormat;
 import java.text.ParseException;
 
 public class SequenceIJ4 {
 	public  static void main(String[] args) throws ParseException {
+		//SequenceIJ4.printSequence();
+		
+		DecimalFormat df = new DecimalFormat("#.##");
 
+		for (double e=0; e<=2; e=e+0.2) {
+			for(int n=1; n<=3; n++) {
+				double num = n + e;
+				System.out.println("I=" + df.format(e) + " J=" + df.format(num));
+				
+			}
+			
+		}
 	}
 	
 	public static void printSequence() {
-		
-		int num = 0;
-		float increment = 0.2f;
-		
-		for (int i=0; i<=2; i++) {
-			for(int n=0; n<=3; i++) {
+		DecimalFormat df = new DecimalFormat("#.##");
+
+		for (double e=0; e<=2; e=e+0.2) {
+			for(int n=1; n<=3; n++) {
+				double num = n + e;
+				System.out.println("I=" + df.format(e) + " J=" + df.format(num));
 				
 			}
+			
 		}
 		
 		

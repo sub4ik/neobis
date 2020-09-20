@@ -5,17 +5,20 @@ import java.util.Scanner;
 
 public class ColumnInArray {
 	
-	public  static void main(String[] args) {
-		ColumnInArray.findSumOrAvg(2, "M");
+	public  static void main(String[] args) { // uri runtime error
+		ColumnInArray.findSumOrAvg();
 	}
 	
-	public static void findSumOrAvg(int num, String str) {
+	public static void findSumOrAvg() {
 		
 		
 		float avg = 0, sum = 0;
 		float[][] M = new float[3][3]; //12
 		
 		Scanner scan = new Scanner(System.in);
+		int num = scan.nextInt();
+		scan.nextLine();
+		String str = scan.nextLine(); //?
 		
 		for(int i=0; i<3; i++) { //12
 			for(int n=0; n<3; n++) { //12
@@ -24,9 +27,8 @@ public class ColumnInArray {
 		} System.out.println(Arrays.deepToString(M));
 		
 		
-		//int num = scan.nextInt();
+
 		
-		//String charT = scan.nextLine();
 		for(int i=0; i<3; i++) { //12
 			sum = sum + M[i][num];
 			}
