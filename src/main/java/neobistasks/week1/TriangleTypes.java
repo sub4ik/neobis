@@ -1,15 +1,23 @@
 package neobistasks.week1;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class TriangleTypes {
 	public  static void main(String[] args) {
 		//System.out.println("Let's go to git hub!");
-		TriangleTypes.finTriangleType2(7.0, 5.0, 7.0);
-
+		//TriangleTypes.finTriangleType2(7.0, 5.0, 7.0);
+		TriangleTypes.finTriangleType2();
 	}
 	
-	public static void finTriangleType2(double num1, double num2, double num3) {
+	public static void finTriangleType2() {  // uri no pass
+		Scanner scan = new Scanner(System.in);
+		double num1 = scan.nextDouble();
+		double num2 = scan.nextDouble();
+		double num3 = scan.nextDouble();
+
+
+		
 		double[] doubleArr =  {num1, num2, num3};
 		Arrays.sort(doubleArr);
 		
@@ -22,18 +30,23 @@ public class TriangleTypes {
 		
 		if(a >= (b + c)) {
 			System.out.println("NAO FORMA TRIANGULO");
-		} if((a*a) == ((b*b) + (c*c))) {
+		} else if((a*a) == ((b*b) + (c*c))) {
 			System.out.println("TRIANGULO RECTANGULO");
-		}  if((a*a) > ((b*b) + (c*c))) {
+		}  else if((a*a) > ((b*b) + (c*c))) {
 			System.out.println("TRIANGULO OBTUSANGULO");
-		}  if((a*a) < ((b*b) + (c*c))) {
+		} else if((a*a) < ((b*b) + (c*c))) {
 			System.out.println("TRIANGULO ACUTANGULO");
-		}  if(a==b && a==c) {
+		}  
+		
+		
+		if(a==b && a==c) {
 			System.out.println("TRIANGULO EQUILATERO");
-		}  if(a==b || a==c || b==c) {
-			System.out.println("TRIANGULO ISOSCELES");
+		} else if(a==b || a==c || b==c) {
+			System.out.println("TRIANGULO ISOSCELES");  
 		} 
 	}
+	
+	
 	
 	public static void finTriangleType(double num1, double num2, double num3) {
 		double a = 0, b = 0, c = 0;

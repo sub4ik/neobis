@@ -4,8 +4,8 @@ import java.text.DecimalFormat;
 import java.text.ParseException;
 
 public class SequenceIJ4 {
-	public  static void main(String[] args) throws ParseException {
-		//SequenceIJ4.printSequence();
+	public  static void main(String[] args) throws ParseException { // uri passed
+		//SequenceIJ4.printSequence();  
 		
 		DecimalFormat df = new DecimalFormat("#.##");
 
