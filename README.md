@@ -1,4 +1,4 @@
-# neobis_week1
+# neobis
 ## Part I
 * Install Git on your machine. Ensure it works by executing some simple commands according to the provided tutorial.
 
