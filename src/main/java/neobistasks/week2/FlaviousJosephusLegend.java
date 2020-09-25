@@ -14,33 +14,75 @@ public class FlaviousJosephusLegend {
 		Scanner scan = new Scanner(System.in);
 		//int testCasesNum = scan.nextInt();
 		int peopleNum = scan.nextInt();
-		int stepSize = scan.nextInt();
+		int steps = scan.nextInt();
 		
 		List<Integer> listPeople = new ArrayList<Integer>();
 		for (int i=1; i<=peopleNum; i++ ) {
 			listPeople.add(i);
 		} 
+		System.out.println(listPeople);
 		
-		int kill = 0;
+		findRemainingPersonPosition(listPeople, steps );
 		
-		// [1, 2, 3, 4, 5]
-
+			
+	}
+	
+	public static void  findRemainingPersonPosition(List<Integer> listPeople, int steps){
+		
+		int kill = 0; //2
+		int stop = 0;
+		
+		//while list size >1
 		for(int i=listPeople.size(); i>=1; i--) {
-			if(kill<(listPeople.size()-1)) {
-				kill++;
+			if(kill<=(listPeople.size()-steps)) { //?
+				kill=kill + steps-1;
 				System.out.println("killed " + listPeople.get(kill));
 				listPeople.remove(kill);
 			} else {
-				kill = kill - i;
-			}
-			
+				List<Integer> newListPeople = new ArrayList<Integer>();
+				newListPeople.addAll(listPeople);
+				//findRemainingPersonPosition(newListPeople, steps); // does not work
+				//break; //start over??
+			}	
 		}
+		System.out.println("remained " + listPeople);
+	}
+	
+	
+	
+	
+	public static void findRemainingPerson3() {
+		Scanner scan = new Scanner(System.in);
+		//int testCasesNum = scan.nextInt();
+		int numOfPeople = scan.nextInt();
+		int steps = scan.nextInt(); 
+		int winner; // winner
+		int l; //remider
 		
-		System.out.println(listPeople);//
+		int biggestPower = 2;
+		int power = 2;
+
+		while(power<=numOfPeople) {
+			biggestPower = power;
+			power=power*2;
+			//System.out.println(power);
+
+			if(power>numOfPeople) {
+				break;
+			}
+
+		} System.out.println("biggestPower " + biggestPower);
+		
+		l = numOfPeople - biggestPower;
+		System.out.println("L " + l); 
+		
+		winner = (2 * l) + 1; 
+		System.out.println("winner is " + winner);
 
 		
-		
 	}
+	
+
 	
 	public static void findRemainingPerson2() {
 		Scanner scan = new Scanner(System.in);
